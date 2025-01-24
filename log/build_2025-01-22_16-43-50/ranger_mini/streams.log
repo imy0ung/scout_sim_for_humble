@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.538s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.633s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.634s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.635s] -- Added test 'lint_cmake' to check CMake code style
+[0.636s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.637s] -- Added test 'xmllint' to check XML markup files
+[0.638s] -- Configuring done
+[0.641s] -- Generating done
+[0.641s] -- Build files have been written to: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini
+[0.656s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini
+[0.657s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini -- -j8 -l8
+[0.688s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini -- -j8 -l8
+[0.709s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini
+[0.720s] -- Install configuration: ""
+[0.720s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch
+[0.721s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_gazebo.launch.py
+[0.721s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_display.launch.py
+[0.721s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes
+[0.721s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr.dae
+[0.724s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr_Link.STL
+[0.738s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/bl_Link.STL
+[0.751s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl_Link.STL
+[0.762s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/base_link.STL
+[0.774s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr.stl
+[0.784s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl.stl
+[0.794s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/ranger_base.zip
+[0.802s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl.dae
+[0.809s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/br_Link.STL
+[0.820s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz
+[0.820s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz/urdf.rviz
+[0.820s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz/display.rviz
+[0.820s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf
+[0.820s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo copy.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.urdf
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.csv
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/gazebo.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_r.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_l.xacro
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/package_run_dependencies/ranger_mini
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/parent_prefix_path/ranger_mini
+[0.821s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.sh
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.dsv
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/path.sh
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/path.dsv
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.bash
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.sh
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.zsh
+[0.822s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.dsv
+[0.823s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/package.dsv
+[0.823s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/packages/ranger_mini
+[0.823s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig.cmake
+[0.823s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig-version.cmake
+[0.823s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/package.xml
+[0.827s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini

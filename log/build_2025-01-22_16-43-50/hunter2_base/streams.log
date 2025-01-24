@@ -1,0 +1,65 @@
+[0.019s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.294s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.648s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.654s] -- Added test 'lint_cmake' to check CMake code style
+[0.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.654s] -- Added test 'xmllint' to check XML markup files
+[0.655s] -- Configuring done
+[0.660s] -- Generating done
+[0.662s] -- Build files have been written to: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base
+[0.668s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base
+[0.669s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base -- -j8 -l8
+[0.703s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base -- -j8 -l8
+[0.731s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base
+[0.747s] -- Install configuration: ""
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/launch
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/launch/display.launch.py
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/front_steer_right_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/front_right_wheel_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/front_steer_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/front_left_wheel_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/base_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/left_rear_link.STL
+[0.747s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/right_rear_link.STL
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/front_steer_left_link.STL
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/meshes/rear_wheel_link.STL
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/rviz
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/rviz/display.rviz
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/urdf
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/urdf/hunter2_base.csv
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/urdf/hunter2_base.urdf
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/urdf/hunter2_base_gazebo.xacro
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/config
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/config/joint_names_hunter2_base.yaml
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/ament_index/resource_index/package_run_dependencies/hunter2_base
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/ament_index/resource_index/parent_prefix_path/hunter2_base
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/environment/ament_prefix_path.sh
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/environment/ament_prefix_path.dsv
+[0.748s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/environment/path.sh
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/environment/path.dsv
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/local_setup.bash
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/local_setup.sh
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/local_setup.zsh
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/local_setup.dsv
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/package.dsv
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/ament_index/resource_index/packages/hunter2_base
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/cmake/hunter2_baseConfig.cmake
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/cmake/hunter2_baseConfig-version.cmake
+[0.749s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter2_base/share/hunter2_base/package.xml
+[0.769s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter2_base

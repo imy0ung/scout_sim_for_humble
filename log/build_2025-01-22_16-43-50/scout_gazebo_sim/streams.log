@@ -1,0 +1,91 @@
+[0.021s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/scout/scout_gazebo_sim -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim
+[0.642s] -- The C compiler identification is GNU 11.4.0
+[0.643s] -- The CXX compiler identification is GNU 11.4.0
+[0.643s] -- Detecting C compiler ABI info
+[0.643s] -- Detecting C compiler ABI info - done
+[0.643s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.643s] -- Detecting C compile features
+[0.643s] -- Detecting C compile features - done
+[0.643s] -- Detecting CXX compiler ABI info
+[0.643s] -- Detecting CXX compiler ABI info - done
+[0.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.643s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.643s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.643s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.643s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.647s] -- Configured cppcheck include dirs: 
+[0.647s] -- Configured cppcheck exclude dirs and/or files: 
+[0.649s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.649s] -- Configured cpplint exclude dirs and/or files: 
+[0.649s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.651s] -- Added test 'lint_cmake' to check CMake code style
+[0.651s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.652s] -- Added test 'uncrustify' to check C / C++ code style
+[0.652s] -- Configured uncrustify additional arguments: 
+[0.652s] -- Added test 'xmllint' to check XML markup files
+[0.654s] -- Configuring done
+[0.654s] -- Generating done
+[0.655s] -- Build files have been written to: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim
+[0.665s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/scout/scout_gazebo_sim -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim
+[0.666s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim -- -j8 -l8
+[0.713s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim -- -j8 -l8
+[0.751s] Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim
+[0.766s] -- Install configuration: ""
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_v2.launch.py
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/display.launch.py
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_wheel_type1.xacro
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_v2.xacro
+[0.766s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini.xacro
+[0.767s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_v2.gazebo
+[0.767s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini_wheel.gazebo
+[0.767s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini_wheel_4.xacro
+[0.767s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini.gazebo
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini.urdf
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/empty.urdf
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_wheel.gazebo
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini_wheel_2.xacro
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini_wheel_3.xacro
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_mini_wheel_1.xacro
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/mini.xacro
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/urdf/scout_wheel_type2.xacro
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/package.xml
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/wheel.dae
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/1_Link.STL
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/wheel_type1.dae
+[0.768s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/scout_mini_base_link.dae
+[0.773s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/wheel_type2.dae
+[0.775s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/base_link_full.dae
+[0.775s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/scout_mini_base_link.STL
+[0.782s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/2_Link.STL
+[0.784s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/scout_mini_base_link2.dae
+[0.793s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/base_link.dae
+[0.803s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/4_Link.STL
+[0.805s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/meshes/3_Link.STL
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/launch
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/launch/display_scout_v2.launch.py
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/launch/display_mini.launch.py
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/CHANGELOG.rst
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/rviz
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/rviz/model_display.rviz
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/rviz/scout_mini_model_display.rviz
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/rviz/navigation.rviz
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_description/CMakeLists.txt
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_v2_spawn.launch.py
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_empty_world.launch.py
+[0.807s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_v2_empty_world.launch.py
+[0.808s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_spawn.launch.py
+[0.808s] -- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini.launch.py
+[0.808s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.808s]   file INSTALL cannot find
+[0.808s]   "/home/jinyoung/scout_ws/src/ugv_gazebo_sim/scout/scout_gazebo_sim/rviz":
+[0.808s]   No such file or directory.
+[0.808s] 
+[0.808s] [0m
+[0.822s] Invoked command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/scout_gazebo_sim

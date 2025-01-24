@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/ranger_mini
+-- Install configuration: ""
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_gazebo.launch.py
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_display.launch.py
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr.dae
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr_Link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/bl_Link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl_Link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/base_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fr.stl
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl.stl
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/ranger_base.zip
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/fl.dae
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/meshes/br_Link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz/urdf.rviz
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/rviz/display.rviz
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo copy.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.urdf
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.csv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/gazebo.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_r.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/urdf/ranger_l.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/package_run_dependencies/ranger_mini
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/parent_prefix_path/ranger_mini
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/path.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/environment/path.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.bash
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.zsh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/local_setup.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/package.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ament_index/resource_index/packages/ranger_mini
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig.cmake
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig-version.cmake
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/ranger_mini/share/ranger_mini/package.xml

@@ -95,6 +95,66 @@
         <child link="base_link"/>
     </joint> -->
 
+    <!-- LiDAR 센서 추가 -->
+    <link name="laser_link">
+        <sensor name="laser_sensor" type="ray">
+            <origin xyz="0 0 0.3" rpy="0 0 0"/>
+            <ray>
+                <scan angle_min="-1.5708" angle_max="1.5708" angle_increment="0.0058179" time_increment="0.0" scan_time="0.1" range_min="0.1" range_max="30.0"/>
+                <samples>1080</samples>
+                <resolution>1</resolution>
+            </ray>
+            <visual>
+                <geometry>
+                    <cylinder radius="0.05" length="0.2"/>
+                </geometry>
+            </visual>
+            <plugin name="laser_plugin" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <namespace>/scout_mini</namespace>
+                    <param name="frame_id" value="laser_link"/>
+                    <param name="topic_name" value="/scout_mini/laser/scan"/>
+                </ros>
+            </plugin>
+        </sensor>
+    </link>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+        <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    </joint>
+
+    <!-- 카메라 센서 추가 -->
+    <link name="camera_link">
+        <sensor name="camera_sensor" type="camera">
+            <origin xyz="0 0 0.5" rpy="0 0 0" />
+            <camera>
+                <horizontal_fov>1.047</horizontal_fov> <!-- 60도 -->
+                <image width="640" height="480" />
+                <clip near="0.1" far="100.0" />
+                <noise>
+                    <type>gaussian</type>
+                    <stddev>0.01</stddev>
+                </noise>
+            </camera>
+            <plugin name="camera_plugin" filename="libgazebo_ros_camera.so">
+                <ros>
+                    <namespace>/scout_mini</namespace>
+                    <param name="camera_name" value="camera"/>
+                    <param name="frame_id" value="camera_link"/>
+                    <param name="topic_name" value="/scout_mini/camera/image_raw"/>
+                </ros>
+            </plugin>
+        </sensor>
+    </link>
+
+    <joint name="camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    </joint>
+        
     <!-- Scout wheel macros -->
     <!-- wheel labeled from 0 to 3, conter-clockwise, starting from front right wheel -->
     <!-- motor 1 and 2 (left side) are mechanically installed in a reversed direction -->

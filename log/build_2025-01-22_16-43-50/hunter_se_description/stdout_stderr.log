@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/hunter_se_description
+-- Install configuration: ""
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/launch
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/launch/display.launch.py
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/fr_left_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/re_left_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/base_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/fr_steer_left_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/fr_right_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/fr_steer_right_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/meshes/re_right_link.STL
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/rviz
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/rviz/rviz.rviz
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/urdf
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.xacro
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.urdf
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.csv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/config
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/config/joint_names_hunter_se_description_2.yaml
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/ament_index/resource_index/package_run_dependencies/hunter_se_description
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/ament_index/resource_index/parent_prefix_path/hunter_se_description
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/environment/ament_prefix_path.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/environment/ament_prefix_path.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/environment/path.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/environment/path.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/local_setup.bash
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/local_setup.sh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/local_setup.zsh
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/local_setup.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/package.dsv
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/ament_index/resource_index/packages/hunter_se_description
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/cmake/hunter_se_descriptionConfig.cmake
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/cmake/hunter_se_descriptionConfig-version.cmake
+-- Installing: /home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/hunter_se_description/share/hunter_se_description/package.xml

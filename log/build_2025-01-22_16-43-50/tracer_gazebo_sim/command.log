@@ -1,0 +1,1 @@
+Invoking command in '/home/jinyoung/scout_ws/src/ugv_gazebo_sim/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/scout_ws/src/ugv_gazebo_sim/tracer/tracer_gazebo_sim -DCMAKE_INSTALL_PREFIX=/home/jinyoung/scout_ws/src/ugv_gazebo_sim/install/tracer_gazebo_sim

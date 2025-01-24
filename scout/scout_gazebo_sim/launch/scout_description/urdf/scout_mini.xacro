@@ -94,6 +94,30 @@
         <parent link="world"/>
         <child link="base_link"/>
     </joint> -->
+    
+    <!-- LiDAR 센서 추가 -->
+    <link name="laser_link">
+        <sensor name="laser_sensor" type="ray">
+            <origin xyz="0 0 0.3" rpy="0 0 0"/>
+            <ray>
+                <scan angle_min="-1.5708" angle_max="1.5708" angle_increment="0.0058179" time_increment="0.0" scan_time="0.1" range_min="0.1" range_max="30.0"/>
+                <samples>1080</samples>
+                <resolution>1</resolution>
+            </ray>
+            <visual>
+                <geometry>
+                    <cylinder radius="0.05" length="0.2"/>
+                </geometry>
+            </visual>
+            <plugin name="laser_plugin" filename="libgazebo_ros_ray_sensor.so"/>
+        </sensor>
+    </link>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+        <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    </joint>
 
     <!-- Scout wheel macros -->
     <!-- wheel labeled from 0 to 3, conter-clockwise, starting from front right wheel -->
@@ -111,6 +135,27 @@
         <origin xyz="${-wheelbase/2} ${-track/2} ${wheel_vertical_offset}" rpy="0 -1.57 0" />
     </xacro:scout_mini_wheel_4>
 
+    <!-- Sensor -->
+    <xacro:macro name="add_lidar" params="parent_link">
+        <link name="laser_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="0.05" length="0.02"/>
+                </geometry>
+                <material name="black"/>
+            </visual>
+            <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.02"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.1"/>
+            <origin rpy="0 0 0" xyz="0 0 0.05"/>
+        </inertial>
+    </link>
+
+    
     <!-- Additional definitions -->
     <xacro:include filename="$(arg urdf_extras)" />
 
