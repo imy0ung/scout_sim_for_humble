@@ -58,45 +58,72 @@
 
     <!-- LiDAR Sensor -->
     <link name="lidar_link">
+    <!-- 관성 추가 -->
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia>
+                <ixx value="0.001"/>
+                <iyy value="0.001"/>
+                <izz value="0.001"/>
+                <ixy value="0.0"/>
+                <ixz value="0.0"/>
+                <iyz value="0.0"/>
+            </inertia>
+        </inertial>
+    <!-- 시각화 -->
         <visual>
             <geometry>
-                <cylinder length="0.1" radius="0.03"/>
+                <cylinder length="0.2" radius="0.05"/>
             </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
-            <material name="black"/>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <material name="white"/>
         </visual>
+
+    <!-- 충돌 범위 설정-->
         <collision>
             <geometry>
-                <cylinder length="0.1" radius="0.03"/>
+                <cylinder length="0.2" radius="0.05"/>
             </geometry>
         </collision>
     </link>
 
+    <!-- lidar랑 base 연결 -->
     <joint name="lidar_joint" type="fixed">
-        <origin xyz="0 0 ${base_z_size}" rpy="0 0 0" />
+        <origin xyz="0 0 0.1" rpy="0 0 0"/> <!-- LiDAR를 base_link 위에 10cm 배치 -->
         <parent link="base_link"/>
         <child link="lidar_link"/>
     </joint>
 
+    <!-- Gazebo Sensor Plugin -->
     <gazebo reference="lidar_link">
-        <sensor type="ray" name="laser">
+        <sensor name="lidar" type="ray">
             <pose>0 0 0 0 0 0</pose>
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <update_rate>5</update_rate>
+
             <ray>
                 <scan>
                     <horizontal>
                         <samples>360</samples>
                         <resolution>1</resolution>
-                        <min_angle>-1.57</min_angle>
-                        <max_angle>1.57</max_angle>
+                        <min_angle>-3.14159</min_angle>  <!-- -180° -->
+                        <max_angle>3.14159</max_angle>    <!-- +180° -->
                     </horizontal>
                 </scan>
                 <range>
                     <min>0.2</min>
                     <max>30.0</max>
+                    <resolution>0.01</resolution>
                 </range>
             </ray>
-            <plugin name="gazebo_ros_laser" filename="libgazebo_ros_laser.so">
-                <topicName>/scan</topicName>
+            <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <remapping>~/out:=scan</remapping>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>lidar_link</frame_name>
             </plugin>
         </sensor>
     </gazebo>
