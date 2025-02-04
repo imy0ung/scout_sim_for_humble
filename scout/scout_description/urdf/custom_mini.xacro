@@ -73,7 +73,7 @@
             <geometry>
                 <cylinder length="0.02" radius="0.07"/>
             </geometry>
-            <origin xyz="0 0 0.15" rpy="0 0 0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="bright_red">
                 <color rgba="1 0 0 1"/>
             </material>
@@ -82,7 +82,7 @@
     <!-- 충돌 범위 설정-->
         <collision>
             <geometry>
-                <cylinder length="0.2" radius="0.07"/>
+                <cylinder length="0.02" radius="0.07"/>
             </geometry>
         </collision>
     </link>
@@ -113,7 +113,7 @@
                 </scan>
                 <range>
                     <min>0.2</min>
-                    <max>30.0</max>
+                    <max>10.0</max>
                     <resolution>0.01</resolution>
                 </range>
             </ray>
@@ -133,7 +133,7 @@
             <geometry>
                 <box size="0.05 0.05 0.05"/>
             </geometry>
-            <origin xyz="0.1 0 ${base_z_size + 0.05}" rpy="0 0 0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="black"/>
         </visual>
         <collision>
@@ -144,7 +144,7 @@
     </link>
 
     <joint name="camera_joint" type="fixed">
-        <origin xyz="0.1 0 ${base_z_size + 0.05}" rpy="0 0 0"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
         <parent link="base_link"/>
         <child link="camera_link"/>
     </joint>
